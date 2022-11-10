@@ -1,0 +1,70 @@
+body{
+	margin: 0;
+}
+header{
+	background-color: lightgrey;
+	background-image: url('../autumn-tree.jpeg');
+	background-size: 100%;
+	background-position: center;
+	height: 900px;
+}
+
+header ul li{
+	float: left;
+	/*display: flex;
+	flex-direction: row;*/
+	margin-left: auto;
+	margin-right: auto;
+	list-style: none;
+}
+
+header ul li a img{
+	border-radius: 10px;
+	box-shadow: lightskyblue 0 0 10px;
+	margin: 150px 20px;
+	width: 150px;
+}
+
+.left{
+	padding: 200px 0 0 100px;
+}
+
+div.col-sm-2{
+	background-color: grey;
+	border-color: white;
+	height: 1000px;
+}
+
+div.inverted{
+	background-color: #02d7e7;
+	background-image: url('../autumn-tree-inverted.jpeg');
+	background-size: 100%;
+	background-position: center;
+	height: 900px;
+}
+
+.features figure img{
+	border: 1px solid white;
+	border-radius: 5px;
+	box-shadow: gray 0 0 10px;
+	margin: 10px;
+	width: 450px;
+}
+
+.features{
+	/*background-color: #03d8e8;*/
+	display: flex;
+	height: 900px;
+	flex-direction: row;
+	justify-content: center;
+	padding: 20px;
+	text-align: center;
+}
+
+nav.navbar{
+	padding: 20px;
+}
+
+nav div a.navbar-brand{
+	margin: 0 300px 0 100px;
+}
